@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute rul.ipynb
+
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute xps_model.ipynb
+
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute knee_point.ipynb
+
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute plot_figure.ipynb

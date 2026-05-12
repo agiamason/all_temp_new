@@ -1,0 +1,11 @@
+feature_name,importance
+identity(nanvar(Cycle(1/5) - Cycle(5/5))[nanvar(VQ_d(4/4))]),0.027566839432028117
+abs(nanvar(Cycle(4/5))[nanmean(VQ_d(2/4))]),0.02302078358066373
+abs(nanmean(Cycle(3/5) - Cycle(5/5))[nanvar(VQ_d(3/4))]),0.02263026285465118
+abs(nanvar(Cycle(4/5))[nanmax(VQ_d(2/4))]),0.015628319872866576
+abs(nanvar(Cycle(5/5))[nanmean(VQ_d(3/4))]),0.01529553992872962
+identity(nanvar(Cycle(5/5))[nanmean(VQ_d(4/4))]),0.015222841562481534
+identity(nanvar(Cycle(3/5) - Cycle(5/5))[nanmin(VQ_d(4/4))]),0.015157215417679185
+abs(nanmin(Cycle(2/5) - Cycle(5/5))[nanmin(VQ_d(3/4))]),0.014286860226510635
+abs(nanvar(Cycle(3/5) - Cycle(5/5))[nanmin(VQ_d(4/4))]),0.014220994031366443
+abs(nanmean(Cycle(2/5) - Cycle(5/5))[nanvar(VQ_d(3/4))]),0.013456397840063144
