@@ -36,3 +36,4 @@ Regenerate Cluster 4/8/10 E/P CSV exports with per-cell RUL fields and send the 
 - 2026-07-11T18:08:44Z: Add reproducible RUL cluster export script
   - pushed_commit: e2a1516
 - 2026-07-11T18:09:21Z: completed - Generate and send RUL cluster export zip
+  - pushed_commit: 012dee2
