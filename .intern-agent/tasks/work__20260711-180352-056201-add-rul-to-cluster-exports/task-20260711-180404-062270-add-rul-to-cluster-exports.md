@@ -33,3 +33,4 @@ Regenerate Cluster 4/8/10 E/P CSV exports with per-cell RUL fields and send the 
 
 ## Steps
 - 2026-07-11T18:04:04Z: task created
+- 2026-07-11T18:08:44Z: Add reproducible RUL cluster export script
